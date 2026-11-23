@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Footer = ({ address, hours }) => {
+const Footer = ({address,hours}) => {
   return (
     <footer>
+      <p>{address}</p>
+      <p>{hours}</p>
       {/* 주소와 시간 나오게 하기 */}
-      <p>BREAD DAY · {address}</p>
-      <p>영업시간 {hours}</p>
     </footer>
   )
 }
